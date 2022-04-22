@@ -3,6 +3,8 @@ import { AreaMenu } from './styled';
 function Menu() {
 
     return (
+
+        
         <AreaMenu>
             <div className="container">
                 <div className="logo">
@@ -11,7 +13,7 @@ function Menu() {
 
                 <nav>
                     <ul>
-                        <li>Home</li>
+                       <li>Home</li> 
                         <li>Templates</li>
                         <li>Certificados</li>
                     </ul>
@@ -21,7 +23,7 @@ function Menu() {
 
 
         </AreaMenu>
-
+        
     );
 }
 
