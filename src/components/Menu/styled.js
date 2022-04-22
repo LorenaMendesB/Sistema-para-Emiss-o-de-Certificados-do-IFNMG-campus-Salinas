@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-
-
 export const AreaMenu = styled.div`
 height: 81px;
 background-color: #44B78B;
@@ -9,7 +7,7 @@ color: #FFF;
 padding: 7px 21px;
  display: flex;
  align-items: center;
- elavation: 10;
+
 }
     .logo{
         
