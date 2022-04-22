@@ -1,11 +1,27 @@
 import React from 'react';
-import { } from './styled';
-function Menu(){
+import { AreaMenu } from './styled';
+function Menu() {
 
-    return(
-        <div>
-            TOPO DO SITE
-        </div>
+    return (
+        <AreaMenu>
+            <div className="container">
+                <div className="logo">
+                    Extensão
+                </div>
+
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Templates</li>
+                        <li>Certificados</li>
+                    </ul>
+                </nav>
+
+            </div>
+
+
+        </AreaMenu>
+
     );
 }
 
