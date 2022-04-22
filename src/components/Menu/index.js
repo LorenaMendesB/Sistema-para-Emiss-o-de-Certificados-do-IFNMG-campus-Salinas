@@ -13,9 +13,9 @@ function Menu() {
 
                 <nav>
                     <ul>
-                       <li>Home</li> 
-                        <li>Templates</li>
-                        <li>Certificados</li>
+                       <li><a href='#'>Home</a></li> 
+                        <li><a  href='#'>Templates</a></li>
+                        <li><a href='#'>Certificados</a></li>
                     </ul>
                 </nav>
 
