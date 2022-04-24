@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 export const AreaMenu = styled.div`
 height: 81px;
-background-image: linear-gradient(to left, #44B78B, #50D8A4);
+background-color: #44B78B;
 color: #FFF;
 box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
 
