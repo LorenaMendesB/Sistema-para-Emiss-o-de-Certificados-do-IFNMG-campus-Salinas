@@ -62,6 +62,11 @@ padding: 7px 21px;
                      text-align: center;
                      
                         }
+                
+            }
+            .logout{
+                left: 1000px
+                     
             }
             
             }

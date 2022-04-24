@@ -16,6 +16,7 @@ function Menu() {
                        <li><a href='#'>Home</a></li> 
                         <li><a  href='#'>Templates</a></li>
                         <li><a href='#'>Certificados</a></li>
+                        <li className="logout"><a href='#'>Sair</a></li>
                     </ul>
                 </nav>
 
