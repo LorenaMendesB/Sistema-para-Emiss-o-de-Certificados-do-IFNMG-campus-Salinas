@@ -1,5 +1,6 @@
 import React from 'react';
 import { AreaMenu } from './styled';
+import { Link } from 'react-router-dom';
 function Menu() {
 
     return (
@@ -13,9 +14,9 @@ function Menu() {
 
                 <nav>
                     <ul>
-                       <li><a href='#'>Home</a></li> 
-                        <li><a  href='#'>Templates</a></li>
-                        <li><a href='#'>Certificados</a></li>
+                       <li><Link to='/'>Home</Link></li> 
+                        <li><Link to='/Templates'>Templates</Link></li>
+                        <li><Link to='/Certificados'>Certificados</Link></li>
                         <li className="logout"><a href='#'>Sair</a></li>
                     </ul>
                 </nav>

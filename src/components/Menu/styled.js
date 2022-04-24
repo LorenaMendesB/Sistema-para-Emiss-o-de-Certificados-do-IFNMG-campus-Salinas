@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 export const AreaMenu = styled.div`
 height: 81px;
-background-color: #44B78B;
+background-image: linear-gradient(to left, #44B78B, #50D8A4);
 color: #FFF;
 box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
 
@@ -46,7 +46,10 @@ padding: 7px 21px;
                 align-items: center;
                 text-align: center;
                 justify-contents: center;
-                
+                &:hover{
+                    background: #EB124B;
+                    box-shadow: inset -5px 5px 5px rgba(0, 0, 0, 0.2);  
+                }
                  a{
 
                     
@@ -60,12 +63,12 @@ padding: 7px 21px;
                      display: flex;
                      align-items: center;
                      text-align: center;
-                     
-                        }
+                   
+                }
                 
             }
             .logout{
-                left: 1000px
+                right: 0px:
                      
             }
             
