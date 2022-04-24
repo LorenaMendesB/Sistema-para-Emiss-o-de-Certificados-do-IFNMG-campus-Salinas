@@ -3,7 +3,7 @@ import { AreaFooter} from './styled';
 function Footer(){
     return(
 <AreaFooter>
-      TODOS OS DIREITOS RESERVADOS</AreaFooter>
+      &copy Todos os direitos reservados 2022 - BSI2019</AreaFooter>
     );
 }
 

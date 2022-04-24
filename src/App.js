@@ -18,11 +18,9 @@ function App() {
   // }
 
   return (
-    <>
-      <Menu />
-<div> Paginas</div>
-      <Footer />
-    </>
+    <Home>
+      
+    </Home>
   );
 
 }

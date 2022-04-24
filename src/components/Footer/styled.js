@@ -8,6 +8,6 @@ export const AreaFooter = styled.div`
     position: fixed;
     width: 100%;
     color: #FFF;
-  box-shadow: 10px 0px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 0px 7px rgba(0, 0, 0, 0.2);
 
 `;
