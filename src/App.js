@@ -1,6 +1,6 @@
 import React, { userState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Login from './components/Login';
+import Login from './pages/Login';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -8,21 +8,17 @@ import Routes from './Routes'
 import './App.css';
 function App() {
 
-  // const [user, setUser] = userState(null  //   id: 1,
-  // //   name: 'Admin',
-  // //  avatar: ' '
-
-  // );
-
+  //  const [user, setUser] = userState(1);
   // if(user === null){
-  //   return(
+  // return(
   //     <Login/>
   //   );
   // }
 
   return (
     <BrowserRouter>
-      <Menu />
+      {/* <Menu /> */}
+      <Login/>
      <Routes />
       {/* <Footer /> */}
     </BrowserRouter>
