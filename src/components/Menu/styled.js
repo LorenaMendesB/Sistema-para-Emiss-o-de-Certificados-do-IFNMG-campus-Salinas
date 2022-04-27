@@ -10,6 +10,33 @@ export const AreaMenu = styled.div`
     background: #354052;
 
 }
+
+
+.logout{
+                
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    margin-left: 40.25px;
+    bottom: 52px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #EB124B;
+    
+    
+    a{
+        text-decoration: none;
+        margin-left: 15.63px;
+        color: #EB124B;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+    }
+   
+         
+}
     .logo{
         position: absolute;
         width: 187.27px;
@@ -24,63 +51,63 @@ export const AreaMenu = styled.div`
                 position: absolute;
                 width: 291px;
                 height: 181px;
+                left: 0px;
                 top: 224px;
+                margin: 0;
+                padding: 0px 0px 0px 18px;
+                align-items: left;
+                display: block;
+                
             }
             li{
                 
                 list-style: none;
                 width: 230.44px;
                 height: 47px;
-                left: 36.75px;
+                display: flex;
+                align-items: center;
+                margin-left: 18.75px;
+                &:hover{
+                    width: 291px;
+                    height: 55px;                             
+                    background: #ECF1F5;
+                    border-radius: 20px 0px 0px 20px;   
+                    margin:0px;   
+                    .bi{
+                        color: #454444;
+                    }   
+                    a{
+                        color: #454444; 
+
+                    }      
+                }
+                .bi{
+                    margin-left: 18px;
+                    font-size: 25px;
+                    color: #EFF3F5;
+                }
                
+                    
+                
+                
                  a{
 
                     text-decoration: none;
-                    width: 190px;
-                    height: 47px;
-                    left: 36.75px;                                    
-                    font-family: 'Roboto';
+                    margin-left: 15.46px; 
+                    width: 230.44px;                         
                     font-style: normal;
                     font-weight: 700;
                     font-size: 25px;
                     line-height: 29px;
+                    color: #EFF3F5;
                     display: flex;
                     align-items: center;
-                    margin-left: 18.75px;
-                   
-                    color: #EFF3F5;
-
-                    &:hover{
-                        color: #454444;
-                        position: absolute;
-                        width: 291px;
-                        height: 55px;
-                        left: 18px;
-                        background: #ECF1F5;
-                        border-radius: 20px 0px 0px 20px;
-                        
-                    }
+                  
+                    
                  }
-                                
+                              
             }
-            .logout{
-                
-                position: absolute;
-                width: 95px;
-                height: 25px;
-                left: 79.34px;
-                margin-bottom: 52px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 900;
-                font-size: 20px;
-                line-height: 23px;
-                display: flex;
-                align-items: center;
-                
-                color: #EB124B;
-                     
-            }
+            
             
             }
 

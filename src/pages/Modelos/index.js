@@ -2,16 +2,16 @@ import React  from 'react';
 import {  } from './styled';
 import  {ContainerPage, TitlePage } from "../../components/Main"
 
-const Templates = () => {
+const Modelos = () => {
 
     return (
       <ContainerPage>
- <TitlePage> Templates</TitlePage>
+ <TitlePage> Modelos</TitlePage>
       </ContainerPage>
     );
   
   }
   
-  export default Templates;
+  export default Modelos;
     
     
