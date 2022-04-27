@@ -8,7 +8,7 @@ export const AreaMenu = styled.div`
     left: 0px;
     top: 0px;
     background: #354052;
-
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -51,7 +51,7 @@ export const AreaMenu = styled.div`
                 position: absolute;
                 width: 291px;
                 height: 181px;
-                left: 0px;
+                left: -1px;
                 top: 224px;
                 margin: 0;
                 padding: 0px 0px 0px 18px;
@@ -68,7 +68,7 @@ export const AreaMenu = styled.div`
                 align-items: center;
                 margin-left: 18.75px;
                 &:hover{
-                    width: 291px;
+                    width: 292px;
                     height: 55px;                             
                     background: #ECF1F5;
                     border-radius: 20px 0px 0px 20px;   
