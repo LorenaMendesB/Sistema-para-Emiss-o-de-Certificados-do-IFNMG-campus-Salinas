@@ -24,7 +24,7 @@ function App() {
     <BrowserRouter>
       <Menu />
      <Routes />
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 

@@ -1,77 +1,97 @@
 import styled from 'styled-components';
 export const AreaMenu = styled.div`
-height: 81px;
-background-color: #44B78B;
-color: #FFF;
-box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
 
 .container{
-padding: 7px 21px;
- display: flex;
- align-items: center;
-
- 
+    position: absolute;
+    width: 309px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #354052;
 
 }
     .logo{
-        
-         
-        font-style: normal;
-        font-weight: 900;
-        font-size: 41px;
-        line-height: 48px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
+        position: absolute;
+        width: 187.27px;
+        height: 60px;
+        left: 60px;
+        top: 21px;
+        background: #FFF;
+        margin-bottom:27px;
     }
     nav{
-
-            ul{
-                display: flex;
-                align-items: center;
-                text-align: center;
-                justify-contents: center;
+           ul{
+                position: absolute;
+                width: 291px;
+                height: 181px;
+                top: 224px;
             }
             li{
                 
                 list-style: none;
-                display: flex;               
-                width: 177px;
-                height: 46px;
-                margin-left: 20px;
-                background: #F04A27;
-                box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.15);
-                border-radius: 15px;
-                align-items: center;
-                text-align: center;
-                justify-contents: center;
-                &:hover{
-                    background: #EB124B;
-                    box-shadow: inset -5px 5px 5px rgba(0, 0, 0, 0.2);  
-                }
+                width: 230.44px;
+                height: 47px;
+                left: 36.75px;
+               
                  a{
 
-                    
-                   margin-left: 25px;
                     text-decoration: none;
+                    width: 190px;
+                    height: 47px;
+                    left: 36.75px;                                    
+                    font-family: 'Roboto';
                     font-style: normal;
-                     font-weight: 900;
-                     font-size: 25px;
-                     color: #FFFFFF;
-                     line-height: 29px;
-                     display: flex;
-                     align-items: center;
-                     text-align: center;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 29px;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 18.75px;
                    
-                }
-                
+                    color: #EFF3F5;
+
+                    &:hover{
+                        color: #454444;
+                        position: absolute;
+                        width: 291px;
+                        height: 55px;
+                        left: 18px;
+                        background: #ECF1F5;
+                        border-radius: 20px 0px 0px 20px;
+                        
+                    }
+                 }
+                                
             }
             .logout{
-                right: 0px:
+                
+                position: absolute;
+                width: 95px;
+                height: 25px;
+                left: 79.34px;
+                margin-bottom: 52px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 23px;
+                display: flex;
+                align-items: center;
+                
+                color: #EB124B;
                      
             }
             
+            }
+
+            .line{
+            
+                    position: absolute;
+                    width: 300px;
+                    height: 0px;
+                    left: 0px;
+                    top: 108px;
+                   border: 4px solid #092853;
             }
 
     }

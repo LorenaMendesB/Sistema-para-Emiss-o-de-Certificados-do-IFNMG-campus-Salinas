@@ -8,16 +8,18 @@ function Menu() {
         
         <AreaMenu>
             <div className="container">
+
                 <div className="logo">
-                    Extensão
+                    Logo
                 </div>
+                <div className= "line"/>
 
                 <nav>
                     <ul>
-                       <li><Link to='/'>Home</Link></li> 
+                       <li><Link to='/'>Página Inicial</Link></li> 
                         <li><Link to='/Templates'>Templates</Link></li>
                         <li><Link to='/Certificados'>Certificados</Link></li>
-                        <li className="logout"><a href='#'>Sair</a></li>
+                        <p className="logout">Sair</p>
                     </ul>
                 </nav>
 
