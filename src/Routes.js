@@ -9,8 +9,8 @@ export default () => {
     return(
 
         <Routes>
-             <Route path="/Login" element={<Login />} />
-             <Route path="/" element={<Home />} />
+             <Route path="/" element={<Login />} />
+             <Route path="/Home" element={<Home />} />
              <Route path="/Modelos" element={<Modelos />} />
              <Route path="/Certificados" element={<Certificados />} />
 

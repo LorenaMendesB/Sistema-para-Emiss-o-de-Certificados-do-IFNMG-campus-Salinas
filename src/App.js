@@ -8,16 +8,17 @@ import Routes from './Routes'
 import './App.css';
 function App() {
 
-  //  const [user, setUser] = userState(1);
-  // if(user === null){
-  // return(
-  //     <Login/>
-  //   );
-  // }
+//  const [user, setUser] = userState(null);
+//    if(user === null){
+//    return(
+//       <Login/>
+//    );
+//    }
 
   return (
     <BrowserRouter>
       {/* <Menu /> */}
+    
       <Login/>
      <Routes />
       {/* <Footer /> */}
