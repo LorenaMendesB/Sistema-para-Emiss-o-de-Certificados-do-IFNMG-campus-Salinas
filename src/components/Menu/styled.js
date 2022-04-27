@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'; //Instale com npm install --save styled-components
 export const AreaMenu = styled.div`
 
 .container{

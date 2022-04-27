@@ -1,6 +1,6 @@
 import React from 'react';
 import { AreaMenu } from './styled';
-import { Link } from 'react-router-dom'; // 
+import { Link } from 'react-router-dom'; //Instale com npm i react-router-dom
 import "bootstrap-icons/font/bootstrap-icons.css"; //Instale com npm i bootstrap-icons
 
 function Menu() {
