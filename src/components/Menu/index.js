@@ -2,6 +2,7 @@ import React from 'react';
 import { AreaMenu } from './styled';
 import { Link } from 'react-router-dom'; //Instale com npm i react-router-dom
 import "bootstrap-icons/font/bootstrap-icons.css"; //Instale com npm i bootstrap-icons
+import Logo from "./logo.png";
 
 function Menu() {
 
@@ -11,9 +12,9 @@ function Menu() {
         <AreaMenu>
             <div className="container">
 
-                <div className="logo">
-                    Logo
-                </div>
+                
+                <img src={Logo}/>
+                
                 <div className="line" />
 
                 <nav>

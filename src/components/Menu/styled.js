@@ -37,14 +37,15 @@ export const AreaMenu = styled.div`
    
          
 }
-    .logo{
+    img{
         position: absolute;
         width: 187.27px;
-        height: 60px;
+        height: 100px;
         left: 60px;
         top: 21px;
-        background: #FFF;
+        
         margin-bottom:27px;
+        
     }
     nav{
            ul{
