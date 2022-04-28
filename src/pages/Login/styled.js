@@ -4,7 +4,7 @@ export const AreaLogin = styled.div`
     padding: 30px;
     width:350px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 120px;
     text-align: center;
     justify-contents: center;
     height: 395px;
