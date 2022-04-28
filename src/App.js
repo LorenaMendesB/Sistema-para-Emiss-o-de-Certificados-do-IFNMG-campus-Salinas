@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       {/* <Menu /> */}
     
-      <Login/>
+      {/* <Login/> */}
      <Routes />
       {/* <Footer /> */}
     </BrowserRouter>

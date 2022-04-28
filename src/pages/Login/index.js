@@ -11,7 +11,8 @@ function Login() {
         <h1>DEX</h1>
         <form>
             <div className="form-user">
-            <label>Usuário:</label> </div>  
+            <label>Usuário:</label> </div> 
+            <i class="bi bi-person-fill"></i> 
             <input id="user" type="user" name="user" placeholder="Digite o usuario do administrador.."/>
      
        </form>
@@ -20,8 +21,10 @@ function Login() {
        <form>
             <div className="form-user">
             <label>Senha:</label> </div> 
-            <input id="password" type="password" name="password" placeholder="Digite o usuario do administrador.."/>
-      
+           
+                <i class="bi bi-lock-fill"></i>
+             <input id="password" type="password" name="password" placeholder="Digite o usuario do administrador.."/>
+        
        </form>
         <BtnEnter>
          <div className="center">Acessar</div> 

@@ -2,12 +2,11 @@ import styled from 'styled-components';
 
 export const AreaLogin = styled.div`
     padding: 30px;
-    max-width:300px;
+    width:350px;
     margin: auto;
     margin-top: 150px;
     text-align: center;
     justify-contents: center;
-    max-width: 350px;
     height: 395px;
 
 h1{
@@ -27,6 +26,7 @@ h1{
 }
 .form-user{
 
+    width: 350px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -34,14 +34,12 @@ h1{
     line-height: 23px;
     display: flex;
     align-items: center;
-    
     color: #000000;
     
 }
 input{
-    
+    width: 270px;
     margin-top:2px;
-    width: 350px;
     height: 50px;
     background: #FFFFFF;
     border: 3px solid #EB124B;
@@ -55,11 +53,19 @@ input{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    padding: 0px 40px;
+  
+   
+   
+
+    &hover{
+        border: 3px solid #EB124B;
+    }
     
     
 }
 #user::placeholder {
-    padding: 56px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -68,9 +74,10 @@ input{
     display: flex;
     align-items: center;
     color: #C4C4C4;
+
 }
 #password::placeholder {
-    padding: 56px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -79,6 +86,7 @@ input{
     display: flex;
     align-items: center;
     color: #C4C4C4;
+    
 }
 .footerLogin{
     
@@ -90,5 +98,19 @@ input{
     align-items: right;
     text-align: right;
     color: #454444;   
+}
+
+.bi{
+    position: absolute;
+    font-size: 35px;
+    left: 525px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: -9px;
+    margin-rigth: 7px;
+    color: #C4C4C4;
+    &:hover{
+        color: #9A9191;
+    }
 }
 `;
