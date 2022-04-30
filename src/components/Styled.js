@@ -2,7 +2,7 @@ import styled from 'styled-components';
 export const BtnEnter = styled.button`
 
 display: flex;
-padding 10px;
+padding: 10px;
 width:100%;
 border: 0px;
 height: 50px;
