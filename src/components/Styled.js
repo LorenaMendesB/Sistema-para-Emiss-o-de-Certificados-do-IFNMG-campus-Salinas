@@ -25,7 +25,7 @@ color: #FFFFFF;
     background: #39935D; 
 }
 .center{
-    text-align: rigth;
+    text-align: right;
     width:100%;
       
 }
