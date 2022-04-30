@@ -195,6 +195,7 @@ export const AreaMenu = styled.div`
                     display: flex;
                     align-items: center;
                     margin-left: 18px;
+                    margin-bottom:
                     &:hover{
                        
                         width: 265px;
@@ -205,6 +206,7 @@ export const AreaMenu = styled.div`
                        
                         .bi{
                             color: #454444;
+                            font-size: 25px;
                         }   
                         a{
                             color: #454444; 
