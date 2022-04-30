@@ -54,6 +54,7 @@ input{
     align-items: center;
     margin-bottom: 30px;
     padding: 0px 40px;
+   
   
    
    

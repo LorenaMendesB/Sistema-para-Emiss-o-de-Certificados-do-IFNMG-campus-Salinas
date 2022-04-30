@@ -23,7 +23,7 @@ function Login() {
             <label>Senha:</label> </div> 
            
                 <i class="bi bi-lock-fill"></i>
-             <input id="password" type="password" name="password" placeholder="Digite o usuario do administrador.."/>
+             <input id="password" type="password" name="password" placeholder="Digite a senha do administrador.."/>
         
        </form>
         <BtnEnter>
