@@ -78,9 +78,11 @@ export const AreaMenu = styled.div`
                         margin:0px;   
                         .bi{
                             color: #454444;
+                            font-size: 25px;
                         }   
                         a{
                             color: #454444; 
+                            font-size: 25px;
     
                         }      
                     }
@@ -154,7 +156,7 @@ export const AreaMenu = styled.div`
         
         a{
             text-decoration: none;
-            margin-left: 15.63px;
+            margin-left: 14px;
             color: #EB124B;
             font-family: 'Roboto';
             font-style: normal;
@@ -195,7 +197,8 @@ export const AreaMenu = styled.div`
                     display: flex;
                     align-items: center;
                     margin-left: 18px;
-                    margin-bottom:
+             
+                    
                     &:hover{
                        
                         width: 265px;
@@ -210,11 +213,12 @@ export const AreaMenu = styled.div`
                         }   
                         a{
                             color: #454444; 
+                            font-size: 25px;
     
                         }      
                     }
                     .bi{
-                        margin-left: 18.75px;
+                        margin-left: 18px;
                         font-size: 25px;
                         color: #EFF3F5;
                     }
@@ -225,7 +229,7 @@ export const AreaMenu = styled.div`
                      a{
     
                         text-decoration: none;
-                        margin-left: 15.46px; 
+                        margin-left: 14px; 
                         width: 230.44px;                         
                         font-style: normal;
                         font-weight: 700;
