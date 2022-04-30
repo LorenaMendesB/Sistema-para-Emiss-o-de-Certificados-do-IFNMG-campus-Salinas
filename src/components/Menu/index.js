@@ -33,7 +33,7 @@ function Menu() {
 
                 <nav>
                     <ul>
-                        <li><i class="bi bi-house-fill"></i><Link to='/'>Página Inicial</Link></li>
+                        <li><i class="bi bi-house-fill"></i><Link to='/Home'>Página Inicial</Link></li>
                         <li><i class="bi bi-card-text"></i><Link to='/Modelos'>Modelos</Link></li>
                         <li><i class="bi bi-palette2"></i><Link to='/Eventos'>Eventos</Link></li>
                         <li><i class="bi bi-pencil-square"></i><Link to='/Editor'>Editor</Link>
@@ -41,7 +41,7 @@ function Menu() {
 
 
                     </ul>
-                    <p className="logout"><i class="bi bi-box-arrow-right"></i><Link to="/Logout"></Link>LogOut</p>
+                    <p className="logout"><i class="bi bi-box-arrow-right"></i><Link to="/">LogOut</Link></p>
                 </nav>
 
             </div>

@@ -4,17 +4,16 @@ import  {ContainerPage, TitlePage } from "../../components/Main"
 
 import Menu from '../../components/Menu';
 
-const Modelos = () => {
+const Editor = () => {
 
     return (
-      <ContainerPage>
-      <Menu/>
- 
-      </ContainerPage>
+        <ContainerPage>
+        <TitlePage> Eventos</TitlePage>
+        <Menu/>
+        </ContainerPage>
     );
   
   }
   
-  export default Modelos;
-    
+  export default Editor;
     
