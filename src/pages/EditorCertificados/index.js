@@ -15,7 +15,7 @@ const Editor = () => {
           <button className="tagName">Add Tag “Nome”</button>
               <button className="save">Salvar texto!</button>
               <hr></hr>
-            <h1></h1>
+            <h1>Lista de certificados:</h1>
               </div>  
         </TextArea>
         </ContainerPage>

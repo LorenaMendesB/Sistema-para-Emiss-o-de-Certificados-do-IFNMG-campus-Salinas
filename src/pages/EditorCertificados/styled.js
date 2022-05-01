@@ -65,5 +65,8 @@ hr{
     top: 540px;
     background: rgba(9, 40, 83, 0.35);
 }
+h1{
+    
+}
 
 `;
