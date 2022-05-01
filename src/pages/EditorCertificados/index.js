@@ -28,7 +28,7 @@ const Editor = () => {
             <button className="salvarTodos">Salvar todos</button>
             <button className="addNew">Adicionar Novo</button>
             <div className="nameArea">
-                <p className="name">Nome: </p>
+                <p className="name" maxlength="150">Nome: </p>
                 <hr className="line-vertical"/>
                <div className="pdf-area">
                 <i class="bi bi-file-pdf-fill"></i>
