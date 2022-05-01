@@ -55,6 +55,15 @@ color: #FFFFFF;
     text-align: center;
     
     color: #FFFFFF;
+    
+}
+hr{
+    position: absolute;
+    width: 1386.01px;
+    height: 0px;
+    left: 337px;
+    top: 540px;
+    background: rgba(9, 40, 83, 0.35);
 }
 
 `;

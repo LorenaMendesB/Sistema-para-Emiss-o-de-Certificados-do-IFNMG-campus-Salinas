@@ -11,10 +11,11 @@ const Editor = () => {
             <TextArea>
           <Menu/>
           <div className="TextArea">
-          <textarea id="textArea" name="textArea" rows="4" cols="50"></textarea>
+          <textarea id="textArea" name="textArea" placeholder="Digite o texto do certificado..." rows="4" cols="50"></textarea>
           <button className="tagName">Add Tag “Nome”</button>
               <button className="save">Salvar texto!</button>
-            
+              <hr></hr>
+            <h1></h1>
               </div>  
         </TextArea>
         </ContainerPage>
