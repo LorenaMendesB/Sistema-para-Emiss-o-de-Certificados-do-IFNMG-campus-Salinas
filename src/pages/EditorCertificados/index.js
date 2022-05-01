@@ -21,7 +21,7 @@ const Editor = () => {
                 </div>
         </form>
          <button className="save">Salvar texto!</button>
-            <hr className="line" />
+            <hr className="line-1" />
             <h1>Lista de certificados:</h1>
             <hr className="line2" />
               </div>  

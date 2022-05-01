@@ -19,42 +19,33 @@ export const TextArea = styled.div`
     padding: 0px 20px;
    
 }
-#textAreaDate{
+.date-area{
 
     position: absolute;
     width: 269px;
     height: 42px;
     left: 618px;
-    top: px;
-    background-color:#E5E5E5;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 35px;
-    padding: 0px 10px;
+    top: 108px;    
     border: 3px solid #EB124B;
     border-radius: 25px;
 }
 .save{
-position: absolute;
-width: 240px;
-height: 45px;
-left: 1200px;
-top: 371px;
-align-items: center;
-text-align: center;
-padding: 0px 5px;
-background: #4BCA7D;
-border-radius: 25px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 20px;
-line-height: 23px;
-
-
-color: #FFFFFF;
+    position: absolute;
+    width: 240px;
+    height: 45px;
+    left: 1200px;
+    top: 371px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px;
+    background: #4BCA7D;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
 }
 .tagName{
     position: absolute;
@@ -71,11 +62,10 @@ color: #FFFFFF;
     line-height: 23px;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
     
 }
-.line{
+.line-1{
     position: absolute;
     width: 1386.01px;
     height: 0px;
@@ -130,10 +120,8 @@ h1{
     font-weight: 900;
     font-size: 20px;
     line-height: 23px;
-  
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
 .addNew{
@@ -152,7 +140,6 @@ h1{
     line-height: 23px;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
 .nameArea{
