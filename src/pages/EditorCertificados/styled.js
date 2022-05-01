@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const TextArea = styled.div`
 
-textarea{
+#textArea{
     position: absolute;
     width: 800px;
     height: 200px;
@@ -17,6 +17,24 @@ textarea{
     font-size: 15px;
     line-height: 35px;
     padding: 0px 20px;
+   
+}
+#textAreaDate{
+
+    position: absolute;
+    width: 269px;
+    height: 42px;
+    left: 618px;
+    top: px;
+    background-color:#E5E5E5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 35px;
+    padding: 0px 10px;
+    border: 3px solid #EB124B;
+    border-radius: 25px;
 }
 .save{
 position: absolute;
@@ -72,6 +90,15 @@ color: #FFFFFF;
     left: 337px;
     top: 630px;
     background: rgba(9, 40, 83, 0.35);   
+}
+.line-vertical{
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 1100px;
+    top: 35px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
 }
 h1{
         
@@ -139,6 +166,32 @@ h1{
     box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 0px 30px;
+
+    .bi{
+    
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 1200px;
+        top: 20px;
+        color: #C8191E;
+        font-size: 40px;
+    }
+    .pdf{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 1250px;
+        top: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 30px;
+        align-items: center;
+        text-align: center;
+        color: #C8191E; 
+    }
 }
 .name{
     font-family: 'Roboto';
@@ -149,4 +202,6 @@ h1{
     align-items: center;
     color: #000000;
     }
+
+
 `;
