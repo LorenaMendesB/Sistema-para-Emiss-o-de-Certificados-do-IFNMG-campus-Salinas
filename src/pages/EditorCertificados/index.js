@@ -20,6 +20,9 @@ const Editor = () => {
               </div>  
             <button className="salvarTodos">Salvar todos</button>
             <button className="addNew">Adicionar Novo</button>
+            <div className="nameArea">
+                <p className="name">Nome: </p>
+            </div>
         </TextArea>
         </ContainerPage>
     );

@@ -4,7 +4,7 @@ export const TextArea = styled.div`
 
 textarea{
     position: absolute;
-    width: 783px;
+    width: 800px;
     height: 151px;
     left: 620px;
     top: 172px;
@@ -124,11 +124,30 @@ h1{
     font-weight: 900;
     font-size: 20px;
     line-height: 23px;
-  
     align-items: center;
     text-align: center;
-    
+  
     color: #FFFFFF;
 }
-
+.nameArea{
+            
+    position: absolute;
+    width: 1349px;
+    height: 92px;
+    left: 356px;
+    top: 656px;
+    background: #E5E5E5;
+    box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 0px 30px;
+}
+.name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    color: #000000;
+    }
 `;
