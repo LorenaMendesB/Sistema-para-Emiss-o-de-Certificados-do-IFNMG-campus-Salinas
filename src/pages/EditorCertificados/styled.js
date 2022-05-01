@@ -19,6 +19,33 @@ export const TextArea = styled.div`
     padding: 0px 20px;
    
 }
+.name-area{
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 618px;
+    top: 450px;  
+    font-size: 20px; 
+    #text-name{
+        border: 3px solid #EB124B;
+        border-radius: 25px;
+        font-size: 20px;
+        width: 700px;
+        padding: 0px 10px;
+        color: #5E5656;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 29px;
+        background-color:#E5E5E5;
+        align-items: center;
+        text-align: center;     
+  
+        align-items: center;
+
+    }
+}
 .date-area{
 
     position: absolute;
@@ -100,15 +127,14 @@ export const TextArea = styled.div`
     top: 630px;
     background: rgba(9, 40, 83, 0.35);   
 }
-.line-vertical{
+.line-vertical{     
     position: absolute;
     width: 92px;
     height: 0px;
-    left: 1200px;
+    left: 1220px;
     top: 35px;
     border: 1px solid #000000;
-    transform: rotate(90deg);
-}
+    transform: rotate(90deg) }
 h1{
         
     position: absolute;
@@ -180,7 +206,7 @@ h1{
                 position: absolute;
                 width: 40px;
                 height: 40px;
-                left: 1100px;
+                left: 1280px;
                 top: 20px;
                 color: #C8191E;
                 font-size: 40px;
@@ -189,7 +215,7 @@ h1{
                 position: absolute;
                 width: 40px;
                 height: 40px;
-                left: 1150px;
+                left: 1330px;
                 top: 10px;
                 font-family: 'Roboto';
                 font-style: normal;
@@ -206,7 +232,7 @@ h1{
         position: absolute;
         width: 30px;
         height: 30px;
-        left: 1320px;
+        left: 1200px;
         top: 30px;
         background: none;
         border: none;
@@ -219,24 +245,14 @@ h1{
         }
         
     }
-    .edit{  
-                position: absolute;
-                width: 30px;
-                height: 30px;
-                left: 1270px;
-                top: 30px;  
-                background: none;
-                border: none;
-            .bi{
-                
-                color: green;
-                font-size: 30px;
-                &:hover{
-                color: orange;
-            }
-            }
-            
-    }
+    
+}
+#name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
 }
 .name{
     font-family: 'Roboto';
@@ -246,6 +262,9 @@ h1{
     line-height: 35px;
     align-items: center;
     color: #000000;
+    border: none;
+    background: none;
+    
     }
 
 
