@@ -17,7 +17,7 @@ const Editor = () => {
         <form>
                 <div className="date-area">
                     <label className="date-des" for="dia">Informe a data do certificado: </label>
-                    <input type="date" id="date" name="date"/>
+                    <input type="text" id="text" name="text" maxlength="100" placeholder="Exemplo: 27 de dezembro de 2021"/>
                 </div>
         </form>
          <button className="save">Salvar texto!</button>
@@ -30,8 +30,11 @@ const Editor = () => {
             <div className="nameArea">
                 <p className="name">Nome: </p>
                 <hr className="line-vertical"/>
+               <div className="pdf-area">
                 <i class="bi bi-file-pdf-fill"></i>
-                <p className="pdf">PDF</p>
+                <p className="pdf">PDF</p></div>
+                <button className="delete"><i class="bi bi-trash3-fill"></i></button>
+                <button className="edit"><i class="bi bi-pencil-square"></i></button>
             </div>
         </TextArea>
         </ContainerPage>

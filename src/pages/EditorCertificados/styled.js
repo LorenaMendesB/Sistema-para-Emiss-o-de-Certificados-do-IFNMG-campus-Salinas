@@ -104,7 +104,7 @@ export const TextArea = styled.div`
     position: absolute;
     width: 92px;
     height: 0px;
-    left: 1100px;
+    left: 1200px;
     top: 35px;
     border: 1px solid #000000;
     transform: rotate(90deg);
@@ -162,7 +162,7 @@ h1{
     color: #FFFFFF;
 }
 .nameArea{
-            
+    display: inline;        
     position: absolute;
     width: 1349px;
     height: 92px;
@@ -173,30 +173,69 @@ h1{
     border-radius: 15px;
     padding: 0px 30px;
 
-    .bi{
-    
+    .pdf-area{
+                
+        .bi{
+            
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                left: 1100px;
+                top: 20px;
+                color: #C8191E;
+                font-size: 40px;
+            }
+            .pdf{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                left: 1150px;
+                top: 10px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 25px;
+                line-height: 30px;
+                align-items: center;
+                text-align: center;
+                color: #C8191E; 
+                
+                }
+        }
+    .delete{    
         position: absolute;
-        width: 40px;
-        height: 40px;
-        left: 1200px;
-        top: 20px;
-        color: #C8191E;
-        font-size: 40px;
+        width: 30px;
+        height: 30px;
+        left: 1320px;
+        top: 30px;
+        background: none;
+        border: none;
+        .bi{
+          
+            font-size: 30px;
+            &:hover{
+            color: red;
+        }
+        }
+        
     }
-    .pdf{
-        position: absolute;
-        width: 40px;
-        height: 40px;
-        left: 1250px;
-        top: 10px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 25px;
-        line-height: 30px;
-        align-items: center;
-        text-align: center;
-        color: #C8191E; 
+    .edit{  
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                left: 1270px;
+                top: 30px;  
+                background: none;
+                border: none;
+            .bi{
+                
+                color: green;
+                font-size: 30px;
+                &:hover{
+                color: orange;
+            }
+            }
+            
     }
 }
 .name{
