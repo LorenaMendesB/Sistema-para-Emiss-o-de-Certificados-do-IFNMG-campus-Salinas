@@ -14,7 +14,7 @@ export const TextArea = styled.div`
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 35px;
     padding: 0px 20px;
    
@@ -26,13 +26,23 @@ export const TextArea = styled.div`
     height: 42px;
     left: 618px;
     top: 85px;  
-    font-size: 20px;  
+    font-size: 20px; 
+    
     #date{
         border: 3px solid #EB124B;
         border-radius: 25px;
         font-size: 20px;
         padding: 0px 10px;
+        color: #5E5656;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 29px;
+  
+        align-items: center;
     }
+    
 }
 .save{
     position: absolute;
