@@ -60,10 +60,9 @@ color: #FFFFFF;
 .line{
     position: absolute;
     width: 1386.01px;
-    height: 2px;
+    height: 0px;
     left: 337px;
     top: 540px;
-    
     background: rgba(9, 40, 83, 0.35);  
 }
 .line2{
