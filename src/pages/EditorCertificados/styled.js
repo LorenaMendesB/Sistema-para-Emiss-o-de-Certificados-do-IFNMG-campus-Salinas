@@ -7,7 +7,7 @@ export const TextArea = styled.div`
     width: 800px;
     height: 200px;
     left: 615px;
-    top: 152px;
+    top: 230px;
     border: 3px solid #EB124B;
     border-radius: 25px;
     background-color:#E5E5E5;
@@ -24,7 +24,7 @@ export const TextArea = styled.div`
     width: 500px;
     height: 42px;
     left: 618px;
-    top: 450px;  
+    top: 85px;    
     font-size: 20px; 
     #text-name{
         border: 3px solid #EB124B;
@@ -39,10 +39,8 @@ export const TextArea = styled.div`
         font-size: 20px;
         line-height: 29px;
         background-color:#E5E5E5;
-        align-items: center;
-        text-align: center;     
-  
-        align-items: center;
+        align-items: left;
+        text-align: left;     
 
     }
 }
@@ -52,7 +50,7 @@ export const TextArea = styled.div`
     width: 340px;
     height: 42px;
     left: 618px;
-    top: 85px;  
+    top: 155px;  
     font-size: 20px; 
     
     #text{
@@ -80,7 +78,7 @@ export const TextArea = styled.div`
     width: 240px;
     height: 45px;
     left: 1200px;
-    top: 371px;
+    top: 450px;
     align-items: center;
     text-align: center;
     padding: 0px 5px;
@@ -98,7 +96,7 @@ export const TextArea = styled.div`
     width: 250px;
     height: 45px;
     left: 622px;
-    top: 371px;
+    top: 450px;
     background: #454444;
     border-radius: 25px;
     font-family: 'Roboto';

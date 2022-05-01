@@ -15,7 +15,7 @@ const Editor = () => {
           <form>
                 <div className="name-area">
                     <label className="text" for="text">Informe o título do certificado: </label>
-                    <input type="text" id="text-name" name="text" maxlength="100" placeholder="Exemplo: Palestra sobre educação ambiental"/>
+                    <input type="text" id="text-name" name="text" maxlength="100" placeholder="Exemplo: Palestra sobre educação ambiental..."/>
                 </div>
         </form>
         <form>
@@ -24,7 +24,7 @@ const Editor = () => {
                     <input type="text" id="text" name="text" maxlength="100" placeholder="Exemplo: 27 de dezembro de 2021"/>
                 </div>
         </form>
-        >
+        
         <textarea id="textArea" name="textArea"  rows="4" cols="50" placeholder="Digite o texto do certificado..."></textarea>
           <button className="tagName">Add Tag “Nome”</button>
         <button className="save">Salvar texto!</button>
