@@ -2,7 +2,6 @@ import React  from 'react';
 import {  } from './styled';
 import  {ContainerPage, TitlePage } from "../../components/Main"
 import Menu from '../../components/Menu';
-import Search from '../../components/Search';
 
 const Home = () => {
 
@@ -11,7 +10,7 @@ const Home = () => {
      {/* <TitlePage>Seja Bem-vindo!</TitlePage> */}
     
     <Menu/>
-    <Search/>
+  
     </ContainerPage>
   );
 
