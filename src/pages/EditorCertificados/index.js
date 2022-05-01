@@ -1,6 +1,6 @@
 import React  from 'react'; 
-import {  } from './styled';
-import  {ContainerPage, TitlePage } from "../../components/Main"
+import { TextArea} from './styled';
+import  {ContainerPage} from "../../components/Main"
 
 import Menu from '../../components/Menu';
 
@@ -8,8 +8,14 @@ const Editor = () => {
 
     return (
         <ContainerPage>
-        <TitlePage> Eventos</TitlePage>
-        <Menu/>
+            <TextArea>
+          <Menu/>
+          <div className="TextArea">
+          <textarea id="textArea" name="textArea" rows="4" cols="50"></textarea>
+              <button className="save">Salvar texto!</button>
+            
+              </div>  
+        </TextArea>
         </ContainerPage>
     );
   

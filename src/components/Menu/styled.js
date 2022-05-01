@@ -71,11 +71,10 @@ export const AreaMenu = styled.div`
                     align-items: center;
                     margin-left: 18.75px;
                     &:hover{
-                        width: 292px;
-                        height: 55px;                             
+                                                     
                         background: #ECF1F5;
                         border-radius: 20px 0px 0px 20px;   
-                        margin:0px;   
+                        
                         .bi{
                             color: #454444;
                             font-size: 25px;
@@ -201,9 +200,8 @@ export const AreaMenu = styled.div`
                     
                     &:hover{
                        
-                        width: 265px;
-                        height: 55px; 
-                        margin-left: 18px;                            
+                        
+                                                 
                         background: #ECF1F5;
                         border-radius: 20px 0px 0px 20px;   
                        
@@ -333,10 +331,7 @@ export const AreaMenu = styled.div`
              
                     
                     &:hover{
-                       
-                        width: 250px;
-                        height: 55px; 
-                        margin-left: 18px;                            
+                                                
                         background: #ECF1F5;
                         border-radius: 20px 0px 0px 20px;   
                        
@@ -465,9 +460,7 @@ export const AreaMenu = styled.div`
                     
                     &:hover{
                        
-                        width: 265px;
-                        height: 55px; 
-                        margin-left: 18px;                            
+                                                 
                         background: #ECF1F5;
                         border-radius: 20px 0px 0px 20px;   
                        
