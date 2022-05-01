@@ -38,5 +38,23 @@ line-height: 23px;
 
 color: #FFFFFF;
 }
+.tagName{
+    position: absolute;
+    width: 250px;
+    height: 45px;
+    left: 622px;
+    top: 371px;
+    background: #454444;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
 
 `;

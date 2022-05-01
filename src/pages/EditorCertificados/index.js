@@ -12,6 +12,7 @@ const Editor = () => {
           <Menu/>
           <div className="TextArea">
           <textarea id="textArea" name="textArea" rows="4" cols="50"></textarea>
+          <button className="tagName">Add Tag “Nome”</button>
               <button className="save">Salvar texto!</button>
             
               </div>  
