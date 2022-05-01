@@ -5,9 +5,9 @@ export const TextArea = styled.div`
 textarea{
     position: absolute;
     width: 800px;
-    height: 151px;
-    left: 620px;
-    top: 172px;
+    height: 200px;
+    left: 615px;
+    top: 152px;
     border: 3px solid #EB124B;
     border-radius: 25px;
     background-color:#E5E5E5;
@@ -126,7 +126,7 @@ h1{
     line-height: 23px;
     align-items: center;
     text-align: center;
-  
+    
     color: #FFFFFF;
 }
 .nameArea{
