@@ -25,9 +25,14 @@ export const TextArea = styled.div`
     width: 269px;
     height: 42px;
     left: 618px;
-    top: 108px;    
-    border: 3px solid #EB124B;
-    border-radius: 25px;
+    top: 85px;  
+    font-size: 20px;  
+    #date{
+        border: 3px solid #EB124B;
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 0px 10px;
+    }
 }
 .save{
     position: absolute;
