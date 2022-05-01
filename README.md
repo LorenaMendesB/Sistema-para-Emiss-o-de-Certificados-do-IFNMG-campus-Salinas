@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Para começar o projeto é necessário ter o node.js instalado em sua máquina: https://nodejs.org/en/
+### Para visualizar seu projeto é só iniciá-lo com:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+``` 
+$ npm start
+```
+No front-end utilizou-se bibliotecas para facilitar o desenvolvimento, uma delas é o styled-componets e a outra react-router-dom. Sendo a primeira para auxliar nos estilos e a outra para fazer a troca de delas sem precisar recarregar a página. O $ serve para desmostrar a linha de comando do terminal.
+Instale com os seguintes comandos:
 
-## Available Scripts
+```
+$ npm i react-router-dom
+```
+ e
+```
+# com npm
+$ npm install --save styled-components
 
-In the project directory, you can run:
+# com yarn
+$ yarn add styled-compone
+```
+Outra instalação realizada, foi para utilizar icons pré-definidos do site do bootstrap: https://icons.getbootstrap.com/#styling
 
-### `npm start`
+```
+$ npm i bootstrap-icons
+```
+Para construir a aplicação dentro da pasta src crie as pastas componentes e pages:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+📂
+|_src
+ 📂
+   |_componentes
+ 📂
+   |_pages
+   
+```
+Na pasta public troque a logo.ico padrão do react.js por a do seu projeto:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+📂
+|_public
+ |_ 🖼️- iflogo.ico   
+```
+Na pasta componentes foi criado o componente Menu com dois arquivos index.js e styled.js:
 
-### `npm test`
+```
+📂
+|_componentes
+ 📂
+   |_Menu
+    📑
+      |_index.js
+    📑
+      |_ styled.js
+```
+No arquivo index coloque o sequinte código:
+```react.js
+import React from 'react'; // importando o react
+import { AreaMenu } from './styled'; // importando o arquivo styled com os estilos
+import { Link } from 'react-router-dom'; // importando as rotas - instalado com npm i react-router-dom
+import "bootstrap-icons/font/bootstrap-icons.css"; // importando os icons - instalado com npm i bootstrap-icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+function Menu() {
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    return (
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        <AreaMenu> // area para contrução do menu, tag feita no styled
+            <div className="container">
 
-### `npm run eject`
+                <div className="img"> // importando uma imagem em svg, que possui melhor qualidade
+                    <svg width="196" height="68" viewBox="0 0 196 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="191.273" height="64" rx="7" stroke="white" stroke-width="4" />
+                        <rect x="17" y="22.0251" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <rect x="30.0254" y="22.0251" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <rect x="17" y="35.0505" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <rect x="30.0254" y="35.0505" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <rect x="43.0505" y="35.0505" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <rect x="17" y="48.0757" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <rect x="30.0254" y="48.0757" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <circle cx="22.4622" cy="14.4622" r="5.46219" fill="#C8191E" />
+                        <rect x="30.0254" y="9" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <rect x="43.0505" y="9" width="10.9244" height="10.9244" rx="1" fill="#32A041" />
+                        <path d="M85.2578 50H77.3721L77.4209 43.4082H85.2578C86.8854 43.4082 88.2607 43.0176 89.3838 42.2363C90.5231 41.4551 91.3857 40.2913 91.9717 38.7451C92.5739 37.1826 92.875 35.262 92.875 32.9834V31.4453C92.875 29.7363 92.7041 28.2389 92.3623 26.9531C92.0368 25.651 91.5485 24.5687 90.8975 23.7061C90.2464 22.8271 89.4326 22.168 88.4561 21.7285C87.4958 21.2891 86.389 21.0693 85.1357 21.0693H77.2256V14.4531H85.1357C87.5446 14.4531 89.75 14.8682 91.752 15.6982C93.7702 16.512 95.5117 17.6839 96.9766 19.2139C98.4577 20.7275 99.597 22.526 100.395 24.6094C101.208 26.6764 101.615 28.9714 101.615 31.4941V32.9834C101.615 35.4899 101.208 37.7848 100.395 39.8682C99.597 41.9515 98.4658 43.75 97.001 45.2637C95.5361 46.7773 93.8027 47.9492 91.8008 48.7793C89.8151 49.5931 87.6341 50 85.2578 50ZM82.2793 14.4531V50H73.71V14.4531H82.2793ZM130.546 43.4082V50H111.601V43.4082H130.546ZM114.652 14.4531V50H106.083V14.4531H114.652ZM128.104 28.5645V34.9365H111.601V28.5645H128.104ZM130.619 14.4531V21.0693H111.601V14.4531H130.619ZM141.508 14.4531L147.318 26.2695L153.129 14.4531H162.895L152.982 32.0801L163.163 50H153.3L147.318 37.9639L141.337 50H131.449L141.654 32.0801L131.718 14.4531H141.508Z" fill="white" />
+                    </svg></div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+                <div className="line" /> //adicionando uma linha 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+                <nav> //menu de navegação vertical
+                    <ul>
+                        <li><i class="bi bi-house-fill"></i><Link to='/Home'>Página Inicial</Link></li> //icons com as rotas definidas
+                       <li><i class="bi bi-pencil-square"></i><Link to='/Editor'>Editor</Link>
+                        </li>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+                    </ul>
+                    <p className="logout"><i class="bi bi-box-arrow-right"></i><Link to="/">LogOut</Link></p>
+                </nav>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+            </div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+        </AreaMenu>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    );
+}
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+export default Menu;
+```
