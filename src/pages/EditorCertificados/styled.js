@@ -22,16 +22,17 @@ export const TextArea = styled.div`
 .date-area{
 
     position: absolute;
-    width: 269px;
+    width: 340px;
     height: 42px;
     left: 618px;
     top: 85px;  
     font-size: 20px; 
     
-    #date{
+    #text{
         border: 3px solid #EB124B;
         border-radius: 25px;
         font-size: 20px;
+        width: 340px;
         padding: 0px 10px;
         color: #5E5656;
         font-family: 'Roboto';
@@ -39,6 +40,9 @@ export const TextArea = styled.div`
         font-weight: 900;
         font-size: 20px;
         line-height: 29px;
+        background-color:#E5E5E5;
+        align-items: center;
+        text-align: center;     
   
         align-items: center;
     }
