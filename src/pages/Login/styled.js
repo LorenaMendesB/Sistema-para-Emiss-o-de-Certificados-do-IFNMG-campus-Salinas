@@ -1,16 +1,6 @@
 import styled from 'styled-components';
-export const AreaLogin = styled.div`
-    padding: 30px;
-    width:350px;
-    margin: auto;
-    margin-top: 120px;
-    text-align: center;
-    justify-content: center;
-    height: 395px;
 
-h1{
-
-    
+export const TextTitle = styled.h1`
     left: 908px;
     margin-top: 0;
     font-family: 'Roboto';
@@ -21,21 +11,32 @@ h1{
     align-items: center;
     text-align: center;    
     color: #092853;
+`;
 
-}
-.form-user{
+export const Label = styled.label`
 
-    width: 350px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    
-}
+width: 350px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+color: #000000;
+
+
+`;
+export const AreaLogin = styled.div`
+    padding: 30px;
+    width:350px;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+    height: 395px;
+
+
 input{
     width: 270px;
     margin-top:2px;

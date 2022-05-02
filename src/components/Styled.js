@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 export const BtnEnter = styled.button`
 
-display: flex;
-padding: 10px;
+padding 10px;
 width:100%;
 border: 0px;
 height: 50px;
@@ -17,7 +16,6 @@ font-style: normal;
 font-weight: 900;
 font-size: 20px;
 line-height: 23px;
-display: flex;
 align-items: center;
 text-align: center;
 color: #FFFFFF;
@@ -25,9 +23,8 @@ color: #FFFFFF;
     background: #39935D; 
 }
 .center{
-    text-align: right;
+    text-align: rigth;
     width:100%;
       
 }
-
 `;

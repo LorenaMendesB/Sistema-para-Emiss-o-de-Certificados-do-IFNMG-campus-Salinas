@@ -1,17 +1,10 @@
 import styled from 'styled-components'; //Instale com npm install --save styled-components
+
 export const AreaMenu = styled.div`
 
 @media (max-width: 1763px)
 {
-    .container{
-        position: absolute;
-        width: 309px;
-        height: 100%;
-        left: 0px;
-        top: 0px;
-        background: #354052;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    }
+    
     
     
     .logout{

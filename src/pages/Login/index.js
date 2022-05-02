@@ -1,6 +1,8 @@
+
+   
 import React from 'react';
 import Menu from '../../components/Menu';
-import { AreaLogin } from './styled';
+import { AreaLogin,TextTitle, Label,  } from './styled';
 import { BtnEnter } from '../../components/Styled'
 function Login() {
 
@@ -8,10 +10,10 @@ function Login() {
         
         <AreaLogin>
    
-        <h1>DEX</h1>
+        <TextTitle>DEX</TextTitle>
         <form>
-            <div className="form-user">
-            <label>Usuário:</label> </div> 
+            
+            <Label>Usuário:</Label> 
             <i class="bi bi-person-fill"></i> 
             <input id="user" type="user" name="user" placeholder="Digite o usuario do administrador.."/>
      
@@ -19,17 +21,16 @@ function Login() {
         
 
        <form>
-            <div className="form-user">
-            <label>Senha:</label> </div> 
+            <Label>
+            Senha: </Label> 
            
                 <i class="bi bi-lock-fill"></i>
-             <input id="password" type="password" name="password" placeholder="Digite a senha do administrador.."/>
+             <input id="password" type="password" name="password" placeholder="Digite o usuario do administrador.."/>
         
        </form>
         <BtnEnter>
-         <div className="center">Acessar</div> 
+        Acessar
          </BtnEnter>
-         <p className="footerLogin">Esqueceu sua senha?</p>
         </AreaLogin>
        
     );
