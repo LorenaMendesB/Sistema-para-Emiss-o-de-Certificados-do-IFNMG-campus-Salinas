@@ -2,6 +2,8 @@ import React  from 'react';
 import { TextArea} from './styled';
 import  {ContainerPage} from "../../components/Main"
 
+
+import '../../controller/manipulaPDF.js'
 import Menu from '../../components/Menu';
 import { Link } from 'react-router-dom';
 
