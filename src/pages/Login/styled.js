@@ -103,7 +103,7 @@ input{
 .bi{
     position: absolute;
     font-size: 35px;
-    left: 525px;
+    left: 750px;
     margin-top: 7px;
     margin-bottom: 7px;
     margin-left: -9px;
