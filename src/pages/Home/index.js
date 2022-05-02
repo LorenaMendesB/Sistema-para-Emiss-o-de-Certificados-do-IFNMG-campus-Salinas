@@ -7,8 +7,7 @@ const Home = () => {
 
   return (
     <ContainerPage>     
-     {/* <TitlePage>Seja Bem-vindo!</TitlePage> */}
-    
+     
     <Menu/>
     <CardView />
     </ContainerPage>
