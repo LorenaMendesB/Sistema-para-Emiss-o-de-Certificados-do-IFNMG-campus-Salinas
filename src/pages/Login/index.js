@@ -1,5 +1,5 @@
 import React from 'react';
-import { AreaLogin, TextTitle, Label,  } from './styled';
+import { AreaLogin, TextTitle, Label} from './styled';
 import { BtnEnter } from '../../components/Styled'
 import { Link } from 'react-router-dom';
 

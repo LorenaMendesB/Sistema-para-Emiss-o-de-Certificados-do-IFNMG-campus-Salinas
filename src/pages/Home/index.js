@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import Menu from '../../components/Menu';
 import { CertfCard } from '../../components/certfCards';
 import './styled.css'
-import api from '../../api';
+//import api from '../../api';
 
 const Home = () => {
-/* Conexao com o bd
+  
+ /* 
+ console.log(api.get('eventos'));
   const [eventos, setEventos] = useStates([]);
   useEffect(() => {
     api.get('eventos').then(({data}) => { 
@@ -15,7 +17,7 @@ const Home = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   console.log(eventos);
-*/
+  */
     return (
       <div className='telaHome'>     
         <Menu className='menu'/>

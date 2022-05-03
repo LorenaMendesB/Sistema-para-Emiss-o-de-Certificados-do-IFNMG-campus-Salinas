@@ -43,11 +43,13 @@
     border-radius: 25px;
     font-family: 'Roboto';
     font-style: normal;
+    min-width: 150px;
     font-weight: 900;
     font-size: 20px;
     line-height: 23px;
     align-items: center;
     text-align: center;
+    margin-right: 15px;
 }
 .gridCards{
     justify-content: center;
