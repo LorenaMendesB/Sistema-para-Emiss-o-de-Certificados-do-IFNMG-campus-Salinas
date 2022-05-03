@@ -1,0 +1,60 @@
+.telaHome{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.menu{
+    position: static;
+}
+.conteudo{
+    margin-top: 20px;
+    margin-left: 300px;
+    width: auto;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.eventoTitle{
+    top: 46px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin-right: 50%;
+    color: #5E5656;
+    }
+.link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.botaoCriarNovo{
+    border: none;
+    width: 250px;
+    height: 50px;
+    background: #4BCA7D;
+    box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+}
+.gridCards{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 330px));
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    align-items: center;
+}

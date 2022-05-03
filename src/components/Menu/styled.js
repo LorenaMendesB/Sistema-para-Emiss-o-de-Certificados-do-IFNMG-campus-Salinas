@@ -1,14 +1,12 @@
 import styled from 'styled-components'; //Instale com npm install --save styled-components
 
 export const AreaMenu = styled.div`
-
+.editorBottom{
+    visibility: hidden;
+}
 @media (max-width: 1763px)
 {
-    
-    
-    
-    .logout{
-                    
+    .logout{               
         position: absolute;
         width: 95px;
         height: 25px;
@@ -18,8 +16,6 @@ export const AreaMenu = styled.div`
         display: flex;
         align-items: center;
         color: #EB124B;
-        
-        
         a{
             text-decoration: none;
             margin-left: 15.63px;
@@ -28,19 +24,15 @@ export const AreaMenu = styled.div`
             font-style: normal;
             font-weight: 500;
             line-height: 23px;
-        }
-       
-             
+        }            
     }
         .img{
             position: absolute;
             width: 187.27px;
             height: 100px;
             left: 60px;
-            top: 21px;
-            
+            top: 21px;   
             margin-bottom:27px;
-            
         }
         nav{
                ul{

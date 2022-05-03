@@ -1,8 +1,9 @@
+
 import styled from 'styled-components';
 export const BtnEnter = styled.button`
 
-padding 10px;
-width:100%;
+padding: 10px;
+width: 100%;
 border: 0px;
 height: 50px;
 outline: none;

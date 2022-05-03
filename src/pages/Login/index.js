@@ -1,20 +1,18 @@
-
-   
 import React from 'react';
-import Menu from '../../components/Menu';
-import { AreaLogin,TextTitle, Label,  } from './styled';
+import { AreaLogin, TextTitle, Label,  } from './styled';
 import { BtnEnter } from '../../components/Styled'
-function Login() {
+import { Link } from 'react-router-dom';
 
+
+function Login() {
     return(
-        
         <AreaLogin>
    
         <TextTitle>DEX</TextTitle>
         <form>
             
             <Label>Usuário:</Label> 
-            <i class="bi bi-person-fill"></i> 
+            <i className="bi bi-person-fill"></i> 
             <input id="user" type="user" name="user" placeholder="Digite o usuario do administrador.."/>
      
        </form>
@@ -24,13 +22,11 @@ function Login() {
             <Label>
             Senha: </Label> 
            
-                <i class="bi bi-lock-fill"></i>
+                <i className="bi bi-lock-fill"></i>
              <input id="password" type="password" name="password" placeholder="Digite o usuario do administrador.."/>
         
        </form>
-        <BtnEnter>
-        Acessar
-         </BtnEnter>
+        <BtnEnter><Link to='/Home'>Acessar</Link></BtnEnter>
         </AreaLogin>
        
     );

@@ -1,0 +1,57 @@
+.cardBox{
+    width: 300px;
+    height: 279px;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    filter: drop-shadow(-5px 5px 6px rgba(0, 0, 0, 0.2));
+}
+.imageBox{
+    margin: 0px;
+    width: 300px;
+    height: 180px;
+}
+.backGroundImg{
+    
+    width: 300px;
+    height: 180px;
+    border-radius: 25px 25px 0px 0px;
+}
+.sobreBox{
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    background: #E5E5E5;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.titulo{
+    width: 290px;
+    height: 19px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #092853;
+}
+
+.data{
+    margin-top: 13px;
+    width: 277px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.59);
+}
