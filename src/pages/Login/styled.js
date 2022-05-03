@@ -89,6 +89,10 @@ input{
     color: #C4C4C4;
     
 }
+a{
+    text-decoration: none;
+    color: #FFF;
+}
 .footerLogin{
     
     font-family: 'Roboto';

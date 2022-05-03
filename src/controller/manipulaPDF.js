@@ -23,7 +23,7 @@ export default function donwloadPDF(texto, data, nome){
             }
           ]
     }
-    docDefinition.content[1].text = body
+    docDefinition.content[1].text = body;
     docDefinition.content[2].text = 'Salinas - MG, ' + data;
     pdfMake.createPdf(docDefinition).print();
 }
