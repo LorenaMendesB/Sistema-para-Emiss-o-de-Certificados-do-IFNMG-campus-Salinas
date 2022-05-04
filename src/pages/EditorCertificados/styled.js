@@ -47,6 +47,9 @@ align-items: center;
     }
     .inputText{
         width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
         height: 30px;
         border: 3px solid #EB124B;
         border-radius: 10px;
@@ -79,7 +82,10 @@ align-items: center;
     }
     .dataInput{
         width: 60vw;
-        height: 20px;    
+        height: 20px;  
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;  
     }
     .save{
         width: 240px;
