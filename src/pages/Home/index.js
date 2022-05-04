@@ -15,7 +15,6 @@ const Home = () => {
         console.error("ops! ocorreu um erro" + err);
       });
   }, []);
-  console.log(eventos);
     return (
       <div className='telaHome'>     
         <Menu className='menu'/>
@@ -26,7 +25,9 @@ const Home = () => {
           </div>
           <div className='gridCards'>
             { eventos?.map( (item, index) => (
-                <CertfCard title={item.titulo.substring(0, 20)+(item.titulo.length > 20 ? '...' : '')} date={item.edicao}/>
+              <Link to={'/Editor/' + item.id}>
+                <CertfCard  title={item.titulo.substring(0, 20)+(item.titulo.length > 20 ? '...' : '')} date={item.edicao}/>
+              </Link>
             ))}
           </div>
         </div>

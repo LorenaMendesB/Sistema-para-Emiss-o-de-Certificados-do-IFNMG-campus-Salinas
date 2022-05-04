@@ -17,7 +17,6 @@ function Login() {
             return false
         }
     }
-    console.log(inputs);
     return(
         <div className='AreaMenu'>
         <h1 className='TextTitle'>DEX</h1>

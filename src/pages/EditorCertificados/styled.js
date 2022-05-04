@@ -20,6 +20,7 @@ align-items: center;
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
+        color: #5E5656;
         margin-bottom: 10px;
         line-height: 35px;
         padding: 0px 20px;
