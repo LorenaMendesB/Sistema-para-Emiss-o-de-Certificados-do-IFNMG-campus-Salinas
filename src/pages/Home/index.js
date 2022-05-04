@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
+import  {ContainerPage} from '../../../src/components/main';
 import Menu from '../../components/Menu';
 import { CertfCard } from '../../components/certfCards';
 import './styled.css'
