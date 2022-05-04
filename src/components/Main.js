@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const ContainerPage = styled.div`
-
-padding: 7px 21px;
-
-
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
 `;
 
 export const TitlePage = styled.h1`

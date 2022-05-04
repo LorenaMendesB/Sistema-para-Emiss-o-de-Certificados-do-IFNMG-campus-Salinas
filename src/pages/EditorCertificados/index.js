@@ -3,46 +3,49 @@ import { TextArea} from './styled';
 import  {ContainerPage} from '../../../src/components/main';
 import "../../controller/manipulaPDF.js";
 import Menu from '../../components/Menu';
+import { NomeLabel } from '../../components/nomeLabel';
 
 
 const Editor = () => {
 
     return (
       <ContainerPage>
+        <Menu/>
         <TextArea>
-          <Menu/>
-            <div className="container-area">
-            <form>
-                  <div className="name-area">
-                      <label className="text" for="text">Informe o título do certificado: </label>
-                      <input type="text" id="text-name" name="text" maxlength="100" placeholder="Exemplo: Palestra sobre educação ambiental..."/>
-                  </div>
-            </form>
-            <form>
-              <div className="date-area">
-                  <label className="date-des" for="dia">Informe a data do certificado: </label>
-                  <input type="text" id="text" name="text" maxlength="100" placeholder="Exemplo: 27 de dezembro de 2021"/>
-              </div>
-            </form>
+          <div className="container-area">
+          <form>
+                <div className="divLabels">
+                    <label className="text" for="text">Informe o título do certificado: </label>
+                    <input className='inputText' type="text" id="text-name" name="text" maxlength="100" placeholder="Exemplo: Palestra sobre educação ambiental..."/>
+                </div>
+          </form>
+          <form>
+            <div className="divLabels">
+                <label className="date-des text" for="dia">Informe a data do certificado: </label>
+                <input className='inputText' type="text" id="text" name="text" maxlength="100" placeholder="Exemplo: 27 de dezembro de 2021"/>
+            </div>
+          </form>
+          <div className="divLabels">
             <textarea id="textArea" name="textArea"  rows="4" cols="50" placeholder="Digite o texto do certificado..."></textarea>
-            <button className="tagName">Add Tag “Nome”</button>
-            <button className="save">Salvar texto!</button>
-            <button className="save">Salvar texto!</button>
-            <hr className="line-1" />
-            <h1>Lista de certificados:</h1>
-            <hr className="line2" />
-              </div>  
+          </div>
+          <button className="tagName">Add Tag “Nome”</button>
+          <button className="save">Salvar texto!</button>
+          <hr className="line-1" />
+          <h1>Lista de certificados:</h1>
+          <hr className="line2" />
+            </div>  
+          <div className='botoes'>
             <button className="salvarTodos">Salvar todos</button>
             <button className="addNew">Adicionar Novo</button>
-            <div className="nameArea">
-                <p className="name" maxlength="150">Nome: </p>
-                <hr className="line-vertical"/>
-                <div className="pdf-area">
-                <i className="bi bi-file-pdf-fill"></i>
-                <p className="pdf">PDF</p>     </div>
-                <button className="delete"><i className="bi bi-trash3-fill"></i></button>
-            </div>
-          </TextArea>
+          </div>
+          <NomeLabel name='Joaquim dos santos'/>
+          <NomeLabel name='Antonio Barbosa'/>
+          <NomeLabel name='José Antunes'/>
+          <NomeLabel name='Maria Aparecida'/>
+          <NomeLabel name='Fabio Santos'/>
+          <NomeLabel name='Mateus Silva'/>
+          <NomeLabel name='Joao'/>
+        </TextArea>
       </ContainerPage>
     );
   

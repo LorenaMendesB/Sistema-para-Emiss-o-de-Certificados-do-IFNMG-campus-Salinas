@@ -1,0 +1,67 @@
+.background{
+    background: #E5E5E5;
+    display: inline-flex;
+    box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 0px 4vw;
+    width: 60vw;
+    height: 80px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.label{
+    width: 45vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-align: left;
+}
+.line-vertical{
+    height: 80px;
+    border: 1px solid #000000;
+}
+.pdf-area{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-flex;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.pdf{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #C8191E;    
+}
+.bi{
+    width: 35px;
+    height: 35px;
+    color: #C8191E;
+    font-size: 40px;
+    justify-content: center;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    justify-content: center;
+}
