@@ -1,6 +1,5 @@
 import React, {useEffect, useState}   from 'react'; 
-import { TextArea} from './styled';
-import  {ContainerPage} from '../../components/main'
+import { TextArea, ContainerPage} from './styled';
 import "../../controller/manipulaPDF.js";
 import Menu from '../../components/Menu';
 import { NomeLabel } from '../../components/nomeLabel';

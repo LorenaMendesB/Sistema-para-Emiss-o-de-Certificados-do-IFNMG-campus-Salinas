@@ -1,5 +1,9 @@
 import styled from 'styled-components';
-
+export const ContainerPage = styled.div`
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+`;
 export const TextArea = styled.div`
 width:  auto;
 text-align: center;
