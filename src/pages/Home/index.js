@@ -1,23 +1,21 @@
-import React, {useEffect, useStates} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import Menu from '../../components/Menu';
 import { CertfCard } from '../../components/certfCards';
 import './styled.css'
-//import api from '../../api';
+import api from '../../api';
 
 const Home = () => {
-  
- /* 
- console.log(api.get('eventos'));
-  const [eventos, setEventos] = useStates([]);
+  const [eventos, setEventos] = useState();
   useEffect(() => {
-    api.get('eventos').then(({data}) => { 
-      setEventos(data);
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    api
+      .get("eventos/?format=json")
+      .then((response) => setEventos(response.data))
+      .catch((err) => {
+        console.error("ops! ocorreu um erro" + err);
+      });
   }, []);
   console.log(eventos);
-  */
     return (
       <div className='telaHome'>     
         <Menu className='menu'/>
@@ -27,12 +25,9 @@ const Home = () => {
             <button className='botaoCriarNovo'><Link className='link' to='/Editor'>Criar Novo</Link></button>
           </div>
           <div className='gridCards'>
-            <CertfCard title='Teste' date='15/05/2022'/>
-            <CertfCard title='Evento 2' date='15/05/2022'/>
-            <CertfCard title='Salinas Acelera' date='19/12/2022'/>
-            <CertfCard title='Teste5' date='15/05/2022'/>
-            <CertfCard title='Analise' date='15/05/2022'/>
-            <CertfCard title='Eventos Brasil' date='15/05/2022'/>
+            { eventos?.map( (item, index) => (
+                <CertfCard title={item.titulo.substring(0, 20)+(item.titulo.length > 20 ? '...' : '')} date={item.edicao}/>
+            ))}
           </div>
         </div>
       </div>
